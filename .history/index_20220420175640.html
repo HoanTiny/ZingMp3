@@ -1,0 +1,2172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        />
+        <link rel="stylesheet" href="./assets/css/main.css" />
+        <link rel="stylesheet" href="./assets/css/base.css" />
+        <link rel="stylesheet" href="./assets/css/grid.css" />
+        <link
+            rel="stylesheet"
+            href="./assets/font/fontawesome-free-5.15.3-web/css/all.min.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div id="web-app">
+            <div class="zm-center-header">
+                <div class="zm-center-header-left">
+                    <div class="zm-header-back-next">
+                        <i class="fas fa-arrow-left zm-header-back-icon"></i>
+                        <i class="fas fa-arrow-right zm-header-next-icon"></i>
+                    </div>
+                    <div class="zm-header-search">
+                        <i class="fas fa-search zm-header-search-icon"></i>
+                        <input
+                            class="zm-header-search-input"
+                            type="text"
+                            placeholder="Nhập tên bài hát, nghệ sĩ hoặc MV"
+                        />
+                    </div>
+                </div>
+                <div class="zm-center-header-right">
+                    <div class="zm-center-header-theme">
+                        <i
+                            class="fas fa-tshirt zm-center-header-theme-icon"
+                        ></i>
+                    </div>
+                    <div class="zm-center-header-upload">
+                        <i class="fas fa-upload"></i>
+                    </div>
+                    <div class="zm-center-header-setting">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <div class="zm-center-header-user">
+                        <img src="./assets/img/TNH (17).jpg"
+                        class="zm-center-header-user-img alt="img user">
+                    </div>
+                </div>
+            </div>
+            <div class="web-layout">
+                <div class="zm-sidebar">
+                    <div class="zm-navbar-brand">
+                        <div class="logo-mp3"></div>
+                    </div>
+                    <nav class="zm-navbar">
+                        <ul class="zm-navbar-list">
+                            <li class="zm-navbar-item">
+                                <a
+                                    href=""
+                                    class="zm-navar-item-link"
+                                    title="Cá nhân"
+                                >
+                                    <i
+                                        class="fab fa-napster zm-navar-item-link-icon"
+                                    ></i>
+                                    <span class="zm-navar-item-link-title"
+                                        >Cá nhân</span
+                                    >
+                                </a>
+                            </li>
+                            <li class="zm-navbar-item">
+                                <a
+                                    href=""
+                                    class="zm-navar-item-link active"
+                                    title="Cá nhân"
+                                >
+                                    <i
+                                        class="fas fa-adjust zm-navar-item-link-icon"
+                                    ></i>
+                                    <span class="zm-navar-item-link-title"
+                                        >Khám phá</span
+                                    >
+                                </a>
+                            </li>
+                            <li class="zm-navbar-item">
+                                <a
+                                    href=""
+                                    class="zm-navar-item-link"
+                                    title="Cá nhân"
+                                >
+                                    <i
+                                        class="fas fa-chart-line zm-navar-item-link-icon"
+                                    ></i>
+                                    <span class="zm-navar-item-link-title"
+                                        >Zingchart</span
+                                    >
+                                </a>
+                            </li>
+                            <li class="zm-navbar-item">
+                                <a
+                                    href=""
+                                    class="zm-navar-item-link"
+                                    title="Cá nhân"
+                                >
+                                    <i
+                                        class="fas fa-radiation-alt zm-navar-item-link-icon"
+                                    ></i>
+                                    <span class="zm-navar-item-link-title"
+                                        >Radio</span
+                                    >
+                                    <button class="btn-live">Live</button>
+                                </a>
+                            </li>
+                            <li class="zm-navbar-item">
+                                <a
+                                    href=""
+                                    class="zm-navar-item-link"
+                                    title="Cá nhân"
+                                >
+                                    <i
+                                        class="far fa-kiss-wink-heart zm-navar-item-link-icon"
+                                    ></i>
+                                    <span class="zm-navar-item-link-title"
+                                        >Theo dõi</span
+                                    >
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="zm-navbar-scroll">
+                        <ul class="zm-navbar-scroll-list">
+                            <li class="zm-navbar-scroll-item">
+                                <a
+                                    href=""
+                                    class="zm-navar-item-scroll-link"
+                                    title="Cá nhân"
+                                >
+                                    <i
+                                        class="fas fa-music zm-navar-item-link-scroll-icon"
+                                    ></i>
+                                    <span
+                                        class="zm-navar-item-link-scroll-title"
+                                        >Nhạc mới</span
+                                    >
+                                </a>
+                            </li>
+                            <li class="zm-navbar-scroll-item">
+                                <a
+                                    href=""
+                                    class="zm-navar-item-scroll-link"
+                                    title="Cá nhân"
+                                >
+                                    <i
+                                        class="fas fa-stream zm-navar-item-link-scroll-icon"
+                                    ></i>
+                                    <span
+                                        class="zm-navar-item-link-scroll-title"
+                                        >Thể loại</span
+                                    >
+                                </a>
+                            </li>
+                            <li class="zm-navbar-scroll-item">
+                                <a
+                                    href=""
+                                    class="zm-navar-item-scroll-link"
+                                    title="Cá nhân"
+                                >
+                                    <i
+                                        class="fas fa-star zm-navar-item-link-scroll-icon"
+                                    ></i>
+                                    <span
+                                        class="zm-navar-item-link-scroll-title"
+                                        >Top 100</span
+                                    >
+                                </a>
+                            </li>
+                            <li class="zm-navbar-scroll-item">
+                                <a
+                                    href=""
+                                    class="zm-navar-item-scroll-link"
+                                    title="Cá nhân"
+                                >
+                                    <i
+                                        class="fas fa-film zm-navar-item-link-scroll-icon"
+                                    ></i>
+                                    <span
+                                        class="zm-navar-item-link-scroll-title"
+                                        >MV</span
+                                    >
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="buy-vip">
+                            <span class="buy-vip-tiltle"
+                                >Nghe nhạc không quảng cáo cùng kho nhạc
+                                VIP</span
+                            >
+                            <button class="buy-vip-btn">MUA VIP</button>
+                        </div>
+                        <div class="library">
+                            <h2 class="library-heading">Thư viện</h2>
+                            <ul class="library-list">
+                                <a href="" class="library-list-link">
+                                    <li class="library-list-item">
+                                        <i
+                                            class="fas fa-guitar library-list-item-icon"
+                                        ></i>
+                                        <span class="library-list-item-text"
+                                            >Bài hát</span
+                                        >
+                                    </li>
+                                </a>
+                                <a href="" class="library-list-link">
+                                    <li class="library-list-item">
+                                        <i
+                                            class="fas fa-list-ul library-list-item-icon"
+                                        ></i>
+                                        <span class="library-list-item-text"
+                                            >Playlist</span
+                                        >
+                                    </li>
+                                </a>
+                                <a href="" class="library-list-link">
+                                    <li class="library-list-item">
+                                        <i
+                                            class="fas fa-history library-list-item-icon"
+                                        ></i>
+                                        <span class="library-list-item-text"
+                                            >Gần đây</span
+                                        >
+                                    </li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="playlist">
+                            <ul class="playlist-list">
+                                <p class="playlist-name">Lofi</p>
+                                <p class="playlist-name">Sad</p>
+                                <p class="playlist-name">USUK</p>
+                                <p class="playlist-name">Ballad</p>
+                                <p class="playlist-name">KPop</p>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="create-playlist">
+                        <i class="fas fa-plus create-playlist-icon"></i>
+                        <span class="create-playlist-text">Tạo playlist</span>
+                    </div>
+                </div>
+
+                <div class="zm-center">
+                    <!-- <div class="zm-center-header">
+                        <div class="zm-center-header-left">
+                            <div class="zm-header-back-next">
+                                <i class="fas fa-arrow-left zm-header-back-icon"></i>
+                                <i class="fas fa-arrow-right zm-header-next-icon"></i>
+                            </div>
+                            <div class="zm-header-search">
+                                <i class="fas fa-search zm-header-search-icon"></i>
+                                <input class="zm-header-search-input" type="text" placeholder="Nhập tên bài hát, nghệ sĩ hoặc MV" />
+                            </div>
+                        </div>
+                        <div class="zm-center-header-right">
+                            <div class="zm-center-header-theme">
+                                <i class="fas fa-tshirt zm-center-header-theme-icon"></i>
+                            </div>
+                            <div class="zm-center-header-upload">
+                                <i class="fas fa-upload"></i>
+                            </div>
+                            <div class="zm-center-header-setting">
+                                <i class="fas fa-cog"></i>
+                            </div>
+                            <div class="zm-center-header-user"><img src="./assets/img/TNH (17).jpg" class="zm-center-header-user-img alt="img user"></div>
+                        </div>
+                    </div> -->
+                    <div class="container">
+                        <div class="gallery">
+                            <div class="gallery-contaier">
+                                <div class="gallery-contaier-item active">
+                                    <div class="gallery-item">
+                                        <img
+                                            src="./assets/img/CTS.jpg"
+                                            alt=""
+                                            class="gallery-item-img"
+                                        />
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img
+                                            src="./assets/img/Masew.jpg"
+                                            alt=""
+                                            class="gallery-item-img"
+                                        />
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img
+                                            src="./assets/img/Laigan.jpg"
+                                            alt=""
+                                            class="gallery-item-img"
+                                        />
+                                    </div>
+                                </div>
+                                <div class="gallery-contaier-item">
+                                    <div class="gallery-item">
+                                        <img
+                                            src="./assets/img/slider4.jpg"
+                                            alt=""
+                                            class="gallery-item-img"
+                                        />
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img
+                                            src="./assets/img/banner.jpg"
+                                            alt=""
+                                            class="gallery-item-img"
+                                        />
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img
+                                            src="./assets/img/3107.jpg"
+                                            alt=""
+                                            class="gallery-item-img"
+                                        />
+                                    </div>
+                                </div>
+                                <div class="gallery-contaier-item active">
+                                    <div class="gallery-item">
+                                        <img
+                                            src="./assets/img/slider3.jpg"
+                                            alt=""
+                                            class="gallery-item-img"
+                                        />
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img
+                                            src="./assets/img/slider2.jpg"
+                                            alt=""
+                                            class="gallery-item-img"
+                                        />
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img
+                                            src="./assets/img/slider.jpg"
+                                            alt=""
+                                            class="gallery-item-img"
+                                        />
+                                    </div>
+                                </div>
+
+                                <i class="fas fa-arrow-left btn-prev-slide"></i>
+                                <i
+                                    class="fas fa-arrow-right btn-next-slide"
+                                ></i>
+                            </div>
+                        </div>
+                        <div class="listen-history">
+                            <h2 class="listen-history-heading">
+                                Nghe gần đây
+                                <i
+                                    class="fas fa-chevron-right listen-history-icon"
+                                ></i>
+                            </h2>
+                            <div class="listen-history-next-back">
+                                <i
+                                    class="fas fa-chevron-left listen-history-icon-back"
+                                ></i>
+                                <i
+                                    class="fas fa-chevron-right listen-history-icon-next active"
+                                ></i>
+                            </div>
+                        </div>
+                        <div class="listed-wrap">
+                            <div class="listend">
+                                <div class="listen-history-container">
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/Xemganday.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >#ZINGCHART</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/ngheganday2.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >Bảng xếp hạng bài hát Hàn
+                                                Quốc</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/ngheganday3.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >#Zingchart Tuần 37 2021</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/nghegabday4.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >Nhạc Trung Quốc buồn hay
+                                                nhất</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/ngheganday5.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >Deep Concentration</span
+                                            >
+                                            <span
+                                                class="listen-history-container-singer"
+                                                >Kenny G, Wang Wei, Francis
+                                                Goya</span
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="listen-history-container">
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/codondanhchoai.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >#ZINGCHART</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/DÔtc.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >Bảng xếp hạng bài hát Hàn
+                                                Quốc</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/ngheganday3.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >#Zingchart Tuần 37 2021</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/nghegabday4.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >Nhạc Trung Quốc buồn hay
+                                                nhất</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/ngheganday5.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >Deep Concentration</span
+                                            >
+                                            <span
+                                                class="listen-history-container-singer"
+                                                >Kenny G, Wang Wei, Francis
+                                                Goya</span
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="listen-history-container">
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/codondanhchoai.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >#ZINGCHART</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/DÔtc.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >Bảng xếp hạng bài hát Hàn
+                                                Quốc</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/ngheganday3.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >#Zingchart Tuần 37 2021</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/nghegabday4.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >Nhạc Trung Quốc buồn hay
+                                                nhất</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/ngheganday5.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >Deep Concentration</span
+                                            >
+                                            <span
+                                                class="listen-history-container-singer"
+                                                >Kenny G, Wang Wei, Francis
+                                                Goya</span
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="listen-history-container">
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/codondanhchoai.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >#ZINGCHART</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/DÔtc.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >Bảng xếp hạng bài hát Hàn
+                                                Quốc</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/ngheganday3.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >#Zingchart Tuần 37 2021</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/nghegabday4.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >Nhạc Trung Quốc buồn hay
+                                                nhất</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/ngheganday5.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >Deep Concentration</span
+                                            >
+                                            <span
+                                                class="listen-history-container-singer"
+                                                >Kenny G, Wang Wei, Francis
+                                                Goya</span
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="listen-history">
+                            <h2 class="listen-history-heading">
+                                Âm nhạc dành cho bạn
+                                <i
+                                    class="fas fa-chevron-right listen-history-icon"
+                                ></i>
+                            </h2>
+                            <div class="listen-history-next-back">
+                                <i
+                                    class="fas fa-chevron-left listen-history-icon-back listen-history-container-prev"
+                                ></i>
+                                <i
+                                    class="fas fa-chevron-right listen-history-icon-next listen-history-container-next active"
+                                ></i>
+                            </div>
+                        </div>
+                        <div class="listen-history-container">
+                            <div class="slideshow-list-music">
+                                <div class="list1">
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/andchob1.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >#ZINGCHART</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/amndcb2.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >Bảng xếp hạng bài hát Hàn
+                                                Quốc</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/amndcb3.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >#Zingchart Tuần 37 2021</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/amndcb4.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >Nhạc Trung Quốc buồn hay
+                                                nhất</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/amndcb5.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >Deep Concentration</span
+                                            >
+                                            <span
+                                                class="listen-history-container-singer"
+                                                >Kenny G, Wang Wei, Francis
+                                                Goya</span
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="list1">
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/anhsedeemdi.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >#ZINGCHART</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/backgrmusic.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >Bảng xếp hạng bài hát Hàn
+                                                Quốc</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/img-radio-pos2.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >#Zingchart Tuần 37 2021</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/datg.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >Nhạc Trung Quốc buồn hay
+                                                nhất</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/DÔtc.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >Deep Concentration</span
+                                            >
+                                            <span
+                                                class="listen-history-container-singer"
+                                                >Kenny G, Wang Wei, Francis
+                                                Goya</span
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="list1">
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/andchob1.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >#ZINGCHART</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/amndcb2.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >Bảng xếp hạng bài hát Hàn
+                                                Quốc</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/amndcb3.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >#Zingchart Tuần 37 2021</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/amndcb4.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >Nhạc Trung Quốc buồn hay
+                                                nhất</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="listen-history-container-item">
+                                        <div class="history-lis-img">
+                                            <img
+                                                src="./assets/img/amndcb5.jpg"
+                                                alt=""
+                                                class="listen-history-container-img"
+                                            />
+                                            <div
+                                                class="history-lis-img-hover-icon"
+                                            >
+                                                <i
+                                                    class="far fa-heart history-lis-img-hover-icon-heart"
+                                                ></i>
+                                                <i
+                                                    class="far fa-play-circle history-lis-img-hover-icon-play"
+                                                ></i>
+                                                <i
+                                                    class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                                ></i>
+                                            </div>
+                                        </div>
+                                        <div class="history-lis-text">
+                                            <span
+                                                class="listen-history-container-name"
+                                                >Deep Concentration</span
+                                            >
+                                            <span
+                                                class="listen-history-container-singer"
+                                                >Kenny G, Wang Wei, Francis
+                                                Goya</span
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="listen-history">
+                            <h2 class="listen-history-heading">
+                                Lựa chọn ngày hôm nay
+                                <i
+                                    class="fas fa-chevron-right listen-history-icon"
+                                ></i>
+                            </h2>
+                        </div>
+                        <div class="listen-history-container">
+                            <div class="listen-history-container-item">
+                                <div class="history-lis-img">
+                                    <img
+                                        src="./assets/img/lchn1.jpg"
+                                        alt=""
+                                        class="listen-history-container-img"
+                                    />
+                                    <div class="history-lis-img-hover-icon">
+                                        <i
+                                            class="far fa-heart history-lis-img-hover-icon-heart"
+                                        ></i>
+                                        <i
+                                            class="far fa-play-circle history-lis-img-hover-icon-play"
+                                        ></i>
+                                        <i
+                                            class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                        ></i>
+                                    </div>
+                                </div>
+                                <div class="history-lis-text">
+                                    <span class="listen-history-container-name"
+                                        >#ZINGCHART</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="listen-history-container-item">
+                                <div class="history-lis-img">
+                                    <img
+                                        src="./assets/img/lchn2.jpg"
+                                        alt=""
+                                        class="listen-history-container-img"
+                                    />
+                                    <div class="history-lis-img-hover-icon">
+                                        <i
+                                            class="far fa-heart history-lis-img-hover-icon-heart"
+                                        ></i>
+                                        <i
+                                            class="far fa-play-circle history-lis-img-hover-icon-play"
+                                        ></i>
+                                        <i
+                                            class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                        ></i>
+                                    </div>
+                                </div>
+                                <div class="history-lis-text">
+                                    <span class="listen-history-container-name"
+                                        >Bảng xếp hạng bài hát Hàn Quốc</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="listen-history-container-item">
+                                <div class="history-lis-img">
+                                    <img
+                                        src="./assets/img/lchn3.jpg"
+                                        alt=""
+                                        class="listen-history-container-img"
+                                    />
+                                    <div class="history-lis-img-hover-icon">
+                                        <i
+                                            class="far fa-heart history-lis-img-hover-icon-heart"
+                                        ></i>
+                                        <i
+                                            class="far fa-play-circle history-lis-img-hover-icon-play"
+                                        ></i>
+                                        <i
+                                            class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                        ></i>
+                                    </div>
+                                </div>
+                                <div class="history-lis-text">
+                                    <span class="listen-history-container-name"
+                                        >#Zingchart Tuần 37 2021</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="listen-history-container-item">
+                                <div class="history-lis-img">
+                                    <img
+                                        src="./assets/img/lchn4.jpg"
+                                        alt=""
+                                        class="listen-history-container-img"
+                                    />
+                                    <div class="history-lis-img-hover-icon">
+                                        <i
+                                            class="far fa-heart history-lis-img-hover-icon-heart"
+                                        ></i>
+                                        <i
+                                            class="far fa-play-circle history-lis-img-hover-icon-play"
+                                        ></i>
+                                        <i
+                                            class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                        ></i>
+                                    </div>
+                                </div>
+                                <div class="history-lis-text">
+                                    <span class="listen-history-container-name"
+                                        >Nhạc Trung Quốc buồn hay nhất</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="listen-history-container-item">
+                                <div class="history-lis-img">
+                                    <img
+                                        src="./assets/img/lchn5.jpg"
+                                        alt=""
+                                        class="listen-history-container-img"
+                                    />
+                                    <div class="history-lis-img-hover-icon">
+                                        <i
+                                            class="far fa-heart history-lis-img-hover-icon-heart"
+                                        ></i>
+                                        <i
+                                            class="far fa-play-circle history-lis-img-hover-icon-play"
+                                        ></i>
+                                        <i
+                                            class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                        ></i>
+                                    </div>
+                                </div>
+                                <div class="history-lis-text">
+                                    <span class="listen-history-container-name"
+                                        >Deep Concentration</span
+                                    >
+                                    <span
+                                        class="listen-history-container-singer"
+                                        >Kenny G, Wang Wei, Francis Goya</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="listen-history">
+                            <h2 class="listen-history-heading">
+                                XONE's CORNER
+                                <i
+                                    class="fas fa-chevron-right listen-history-icon"
+                                ></i>
+                            </h2>
+                        </div>
+                        <div class="listen-history-container">
+                            <div class="listen-history-container-item">
+                                <div class="history-lis-img">
+                                    <img
+                                        src="./assets/img/xone1.jpg"
+                                        alt=""
+                                        class="listen-history-container-img"
+                                    />
+                                    <div class="history-lis-img-hover-icon">
+                                        <i
+                                            class="far fa-heart history-lis-img-hover-icon-heart"
+                                        ></i>
+                                        <i
+                                            class="far fa-play-circle history-lis-img-hover-icon-play"
+                                        ></i>
+                                        <i
+                                            class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                        ></i>
+                                    </div>
+                                </div>
+                                <div class="history-lis-text">
+                                    <span class="listen-history-container-name"
+                                        >#ZINGCHART</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="listen-history-container-item">
+                                <div class="history-lis-img">
+                                    <img
+                                        src="./assets/img/xone2.jpg"
+                                        alt=""
+                                        class="listen-history-container-img"
+                                    />
+                                    <div class="history-lis-img-hover-icon">
+                                        <i
+                                            class="far fa-heart history-lis-img-hover-icon-heart"
+                                        ></i>
+                                        <i
+                                            class="far fa-play-circle history-lis-img-hover-icon-play"
+                                        ></i>
+                                        <i
+                                            class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                        ></i>
+                                    </div>
+                                </div>
+                                <div class="history-lis-text">
+                                    <span class="listen-history-container-name"
+                                        >Bảng xếp hạng bài hát Hàn Quốc</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="listen-history-container-item">
+                                <div class="history-lis-img">
+                                    <img
+                                        src="./assets/img/xone3.jpg"
+                                        alt=""
+                                        class="listen-history-container-img"
+                                    />
+                                    <div class="history-lis-img-hover-icon">
+                                        <i
+                                            class="far fa-heart history-lis-img-hover-icon-heart"
+                                        ></i>
+                                        <i
+                                            class="far fa-play-circle history-lis-img-hover-icon-play"
+                                        ></i>
+                                        <i
+                                            class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                        ></i>
+                                    </div>
+                                </div>
+                                <div class="history-lis-text">
+                                    <span class="listen-history-container-name"
+                                        >#Zingchart Tuần 37 2021</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="listen-history-container-item">
+                                <div class="history-lis-img">
+                                    <img
+                                        src="./assets/img/xone4.jpg"
+                                        alt=""
+                                        class="listen-history-container-img"
+                                    />
+                                    <div class="history-lis-img-hover-icon">
+                                        <i
+                                            class="far fa-heart history-lis-img-hover-icon-heart"
+                                        ></i>
+                                        <i
+                                            class="far fa-play-circle history-lis-img-hover-icon-play"
+                                        ></i>
+                                        <i
+                                            class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                        ></i>
+                                    </div>
+                                </div>
+                                <div class="history-lis-text">
+                                    <span class="listen-history-container-name"
+                                        >Nhạc Trung Quốc buồn hay nhất</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="listen-history-container-item">
+                                <div class="history-lis-img">
+                                    <img
+                                        src="./assets/img/xone5.jpg"
+                                        alt=""
+                                        class="listen-history-container-img"
+                                    />
+                                    <div class="history-lis-img-hover-icon">
+                                        <i
+                                            class="far fa-heart history-lis-img-hover-icon-heart"
+                                        ></i>
+                                        <i
+                                            class="far fa-play-circle history-lis-img-hover-icon-play"
+                                        ></i>
+                                        <i
+                                            class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                        ></i>
+                                    </div>
+                                </div>
+                                <div class="history-lis-text">
+                                    <span class="listen-history-container-name"
+                                        >Deep Concentration</span
+                                    >
+                                    <span
+                                        class="listen-history-container-singer"
+                                        >Kenny G, Wang Wei, Francis Goya</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="listen-history">
+                            <h2 class="listen-history-heading">
+                                Radio Nổi Bật
+                                <i
+                                    class="fas fa-chevron-right listen-history-icon"
+                                ></i>
+                            </h2>
+                        </div>
+                        <div class="radio-container">
+                            <div class="radio-hot-item">
+                                <div class="history-lis-img">
+                                    <img
+                                        src="./assets/img/radio1.jpg"
+                                        alt=""
+                                        class="listen-history-container-img img-radio-poss"
+                                    />
+                                    <div class="history-lis-img-hover-icon">
+                                        <i
+                                            class="far fa-heart history-lis-img-hover-icon-heart"
+                                        ></i>
+                                        <i
+                                            class="far fa-play-circle history-lis-img-hover-icon-play"
+                                        ></i>
+                                        <i
+                                            class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                        ></i>
+                                    </div>
+                                    <button class="btn-live-radio">Live</button>
+                                    <img
+                                        src="./assets/img/codondanhchoai.jpg"
+                                        class="img-radio-pos"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="radio-list-text">
+                                    <span class="radio-name">Xone Radio</span>
+                                    <span class="radio-user-live"
+                                        >518 đang nghe</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="radio-hot-item">
+                                <div class="history-lis-img">
+                                    <img
+                                        src="./assets/img/radio2.jpg"
+                                        alt=""
+                                        class="listen-history-container-img img-radio-poss"
+                                    />
+                                    <div class="history-lis-img-hover-icon">
+                                        <i
+                                            class="far fa-heart history-lis-img-hover-icon-heart"
+                                        ></i>
+                                        <i
+                                            class="far fa-play-circle history-lis-img-hover-icon-play"
+                                        ></i>
+                                        <i
+                                            class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                        ></i>
+                                    </div>
+                                    <button class="btn-live-radio">Live</button>
+                                    <img
+                                        src="./assets/img/andchob1.jpg"
+                                        class="img-radio-pos"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="radio-list-text">
+                                    <span class="radio-name">On Air</span>
+                                    <span class="radio-user-live"
+                                        >518 đang nghe</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="radio-hot-item">
+                                <div class="history-lis-img">
+                                    <img
+                                        src="./assets/img/radio3.jpg"
+                                        alt=""
+                                        class="listen-history-container-img img-radio-poss"
+                                    />
+                                    <div class="history-lis-img-hover-icon">
+                                        <i
+                                            class="far fa-heart history-lis-img-hover-icon-heart"
+                                        ></i>
+                                        <i
+                                            class="far fa-play-circle history-lis-img-hover-icon-play"
+                                        ></i>
+                                        <i
+                                            class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                        ></i>
+                                    </div>
+                                    <button class="btn-live-radio">Live</button>
+                                    <img
+                                        src="./assets/img/cuoi.jpg"
+                                        class="img-radio-pos"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="radio-list-text">
+                                    <span class="radio-name">Chạm</span>
+                                    <span class="radio-user-live"
+                                        >518 đang nghe</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="radio-hot-item">
+                                <div class="history-lis-img">
+                                    <img
+                                        src="./assets/img/radio4.jpg"
+                                        alt=""
+                                        class="listen-history-container-img img-radio-poss"
+                                    />
+                                    <div class="history-lis-img-hover-icon">
+                                        <i
+                                            class="far fa-heart history-lis-img-hover-icon-heart"
+                                        ></i>
+                                        <i
+                                            class="far fa-play-circle history-lis-img-hover-icon-play"
+                                        ></i>
+                                        <i
+                                            class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                        ></i>
+                                    </div>
+                                    <button class="btn-live-radio">Live</button>
+                                    <img
+                                        src="./assets/img/amndcb4.jpg"
+                                        class="img-radio-pos"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="radio-list-text">
+                                    <span class="radio-name">V-POP</span>
+                                    <span class="radio-user-live"
+                                        >518 đang nghe</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="radio-hot-item">
+                                <div class="history-lis-img">
+                                    <img
+                                        src="./assets/img/radio5.jpg"
+                                        alt=""
+                                        class="listen-history-container-img img-radio-poss"
+                                    />
+                                    <div class="history-lis-img-hover-icon">
+                                        <i
+                                            class="far fa-heart history-lis-img-hover-icon-heart"
+                                        ></i>
+                                        <i
+                                            class="far fa-play-circle history-lis-img-hover-icon-play"
+                                        ></i>
+                                        <i
+                                            class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                        ></i>
+                                    </div>
+                                    <button class="btn-live-radio">Live</button>
+                                    <img
+                                        src="./assets/img/radiolivepos.jpg"
+                                        class="img-radio-pos"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="radio-list-text">
+                                    <span class="radio-name">Bolero</span>
+                                    <span class="radio-user-live"
+                                        >518 đang nghe</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="radio-hot-item">
+                                <div class="history-lis-img">
+                                    <img
+                                        src="./assets/img/radio6.jpg"
+                                        alt=""
+                                        class="listen-history-container-img img-radio-poss"
+                                    />
+                                    <div class="history-lis-img-hover-icon">
+                                        <i
+                                            class="far fa-heart history-lis-img-hover-icon-heart"
+                                        ></i>
+                                        <i
+                                            class="far fa-play-circle history-lis-img-hover-icon-play"
+                                        ></i>
+                                        <i
+                                            class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                        ></i>
+                                    </div>
+                                    <button class="btn-live-radio">Live</button>
+                                    <img
+                                        src="./assets/img/img-radio-pos3.jpg"
+                                        class="img-radio-pos"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="radio-list-text">
+                                    <span class="radio-name">US-UK</span>
+                                    <span class="radio-user-live"
+                                        >518 đang nghe</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="radio-hot-item">
+                                <div class="history-lis-img">
+                                    <img
+                                        src="./assets/img/radio7.jpg"
+                                        alt=""
+                                        class="listen-history-container-img img-radio-poss"
+                                    />
+                                    <div class="history-lis-img-hover-icon">
+                                        <i
+                                            class="far fa-heart history-lis-img-hover-icon-heart"
+                                        ></i>
+                                        <i
+                                            class="far fa-play-circle history-lis-img-hover-icon-play"
+                                        ></i>
+                                        <i
+                                            class="fas fa-ellipsis-h history-lis-img-hover-icon-more"
+                                        ></i>
+                                    </div>
+                                    <button class="btn-live-radio">Live</button>
+                                    <img
+                                        src="./assets/img/img-radio-pos2.jpg"
+                                        class="img-radio-pos"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="radio-list-text">
+                                    <span class="radio-name">KPOP</span>
+                                    <span class="radio-user-live"
+                                        >518 đang nghe</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="zm-playlist">
+                    <div class="zm-playlist-header">
+                        <div class="zm-playlist-header-option">
+                            <button class="zm-playlist-header-option-listplay">
+                                Danh sách phát
+                            </button>
+                            <button class="zm-playlist-header-option-hislist">
+                                Nghe gần đây
+                            </button>
+                        </div>
+                        <div class="zm-playlist-header-clock">
+                            <i
+                                class="far fa-clock zm-playlist-header-clock-icon"
+                            ></i>
+                        </div>
+                        <div class="zm-playlist-header-more">
+                            <i
+                                class="fas fa-ellipsis-h zm-playlist-header-icon-more"
+                            ></i>
+                        </div>
+                    </div>
+                    <div class="zm-playlist-song">
+                        <ul class="zm-playlist-song-list">
+                            <!-- <li class="zm-playlist-song-item">
+                                <img src="./assets/img/backgrmusic.jpg" class="song-img" alt="" />
+                                <div class="song-info">
+                                    <span class="song-name">Lựa chọn của anh</span>
+                                    <span class="song-singer">Thương Vỡ, ACV</span>
+                                </div>
+                            </li>
+                            <li class="zm-playlist-song-item">
+                                <img src="./assets/img/yeula.jpg" class="song-img" alt="" />
+                                <div class="song-info">
+                                    <span class="song-name">Yêu là cưới</span>
+                                    <span class="song-singer">Phát Hồ, X2X</span>
+                                </div>
+                            </li>
+                            <li class="zm-playlist-song-item">
+                                <img src="./assets/img/lisa.jpg" class="song-img" alt="" />
+                                <div class="song-info">
+                                    <span class="song-name">LALISA</span>
+                                    <span class="song-singer">LISA</span>
+                                </div>
+                            </li>
+                            <li class="zm-playlist-song-item">
+                                <img src="./assets/img/roitoilun.jpg" class="song-img" alt="" />
+                                <div class="song-info">
+                                    <span class="song-name">Rồi tới luôn</span>
+                                    <span class="song-singer">Nal</span>
+                                </div>
+                            </li>
+                            <li class="zm-playlist-song-item">
+                                <img src="./assets/img/karik.jpg" class="song-img" alt="" />
+                                <div class="song-info">
+                                    <span class="song-name">Chưa từng vì nhau</span>
+                                    <span class="song-singer">Karik</span>
+                                </div>
+                            </li>
+                            <li class="zm-playlist-song-item">
+                                <img src="./assets/img/lyly24h.jpg" class="song-img" alt="" />
+                                <div class="song-info">
+                                    <span class="song-name">24h</span>
+                                    <span class="song-singer">LyLy, Magazine</span>
+                                </div>
+                            </li>
+                            <li class="zm-playlist-song-item">
+                                <img src="./assets/img/nguoila.jpg" class="song-img" alt="" />
+                                <div class="song-info">
+                                    <span class="song-name">Người lạ thoáng qua</span>
+                                    <span class="song-singer">ACV</span>
+                                </div>
+                            </li>
+                            <li class="zm-playlist-song-item">
+                                <img src="./assets/img/datg.jpg" class="song-img" alt="" />
+                                <div class="song-info">
+                                    <span class="song-name">Thú tội</span>
+                                    <span class="song-singer">Thương Vỡ, ACV</span>
+                                </div>
+                            </li>
+                            <li class="zm-playlist-song-item">
+                                <img src="./assets/img/DÔtc.jpg" class="song-img" alt="" />
+                                <div class="song-info">
+                                    <span class="song-name">Độ Tộc 2</span>
+                                    <span class="song-singer">Mixi, Masew</span>
+                                </div>
+                            </li>
+                            <li class="zm-playlist-song-item">
+                                <img src="./assets/img/chieudongque.jpg" class="song-img" alt="" />
+                                <div class="song-info">
+                                    <span class="song-name">Chiều đồng quê</span>
+                                    <span class="song-singer">H2K</span>
+                                </div>
+                            </li>
+                            <li class="zm-playlist-song-item">
+                                <img src="./assets/img/anhsedeemdi.jpg" class="song-img" alt="" />
+                                <div class="song-info">
+                                    <span class="song-name">Anh sẽ để em đi</span>
+                                    <span class="song-singer">Kidz</span>
+                                </div>
+                            </li>
+                            <li class="zm-playlist-song-item">
+                                <img src="./assets/img/codondanhchoai.jpg" class="song-img" alt="" />
+                                <div class="song-info">
+                                    <span class="song-name">Cô đơn dành cho ai (Lofi Vers.No1) </span>
+                                    <span class="song-singer">Lee Ken, Nal</span>
+                                </div>
+                            </li>
+                            <li class="zm-playlist-song-item">
+                                <img src="./assets/img/phodalenden.jpg" class="song-img" alt="" />
+                                <div class="song-info">
+                                    <span class="song-name">Phố đã lên đèn</span>
+                                    <span class="song-singer">Masew, Huyền Tâm Môn, Great</span>
+                                </div>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="web-fix-bottom">
+                <div class="song-play-left">
+                    <div class="cd">
+                        <div
+                            class="cd-thumb"
+                            style="
+                                background-image: url('./assets/img/karik.jpg');
+                            "
+                        ></div>
+                    </div>
+                    <div class="song-info-player">
+                        <span class="song-name-player">Yêu là cưới</span>
+                        <span class="song-singer-player">Phát Hồ, X2X</span>
+                    </div>
+                    <div class="song-icon">
+                        <i class="far fa-heart song-icon-tym"></i>
+                        <i class="fas fa-ellipsis-h song-icon-more"></i>
+                    </div>
+                </div>
+                <div class="control-play">
+                    <div class="control">
+                        <div class="btn btn-repeat">
+                            <i class="fas fa-redo"></i>
+                        </div>
+                        <div class="btn btn-prev">
+                            <i class="fas fa-step-backward"></i>
+                        </div>
+                        <div class="btn btn-toggle-play">
+                            <i class="fas fa-pause icon-pause"></i>
+                            <i class="fas fa-play icon-play"></i>
+                        </div>
+                        <div class="btn btn-next">
+                            <i class="fas fa-step-forward"></i>
+                        </div>
+                        <div class="btn btn-random">
+                            <i class="fas fa-random"></i>
+                        </div>
+                    </div>
+                    <div class="control-time">
+                        <span class="time-song-current">00:00</span>
+                        <button class="time-cr">
+                            <input
+                                id="progress"
+                                class="progress"
+                                type="range"
+                                value="0"
+                                step="1"
+                                min="0"
+                                max="100"
+                            />
+                        </button>
+                        <span class="time-song-duration">00:00</span>
+                    </div>
+                    <audio id="audio" src=""></audio>
+                </div>
+                <div class="song-play-right">
+                    <i
+                        class="fas fa-microphone-alt song-play-right-icon-kara"
+                    ></i>
+                    <i class="fas fa-film song-play-right-icon-mv"></i>
+                    <div class="volume">
+                        <i
+                            class="fas fa-volume-up song-play-right-icon-volume"
+                            onclick="mute_sound()"
+                        ></i>
+                        <i
+                            class="fas fa-volume-mute song-play-right-icon-mute-volume"
+                            onclick="unmute_sound()"
+                        ></i>
+                    </div>
+                    <input
+                        type="range"
+                        min="0"
+                        max="100"
+                        value="90"
+                        onchange="volume_change()"
+                        id="volume"
+                    />
+
+                    <!-- <div class="volume">
+                        <p id="volume_show">90</p>
+                        <i class="fa fa-volume-up" aria-hidden="true" onclick="mute_sound()" id="volume_icon"></i>
+                        <input type="range" min="0" max="100" value="90" onchange="volume_change()" id="volume">  
+                     </div> -->
+                </div>
+            </div>
+        </div>
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>

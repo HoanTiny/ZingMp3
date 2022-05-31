@@ -1,0 +1,16 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --mp3-logo: url("https://zmp3-static.zadn.vn/skins/zmp3-v6.1/images/backgrounds/logo-dark.svg");
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
